@@ -155,7 +155,7 @@ def ALU_fc(family):
             elif alu == ALU_t.SHR:
                 #res, res_p = a >> Data(b[:4]), Bit(0)
                 res, res_p = shr, Bit(0)
-            elif alu == ALU_t.SHL:
+            else: #alu == ALU_t.SHL:
                 #res, res_p = a << Data(b[:4]), Bit(0)
                 res, res_p = a << b, Bit(0)
             
