@@ -16,8 +16,8 @@ from lassen.sim import PE_fc
 def test_cond():
     Cond_magma = Cond_fc(MagmaFamily())
 
-def test_mode():
-    rmode_magma = gen_register_mode(BitVector[16], 0)(MagmaFamily())
+# def test_mode():
+#     rmode_magma = gen_register_mode(BitVector[16], 0)(MagmaFamily())
 
 def test_alu():
     ALU_magma = ALU_fc(MagmaFamily())

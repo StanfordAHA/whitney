@@ -43,6 +43,7 @@ def test_round_bounded(arg):
     gold = BFloat16(gmpy2.rint_trunc(arg._value))
     assert BFloat16.reinterpret_from_bv(r2z) == gold
 
+@pytest.mark.skip()
 @pytest.mark.parametrize("arg", [BFloat16.random() for _ in range(NTESTS)])
 def test_round(arg):
     round_to_zero = RoundToZero()

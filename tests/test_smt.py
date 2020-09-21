@@ -30,10 +30,10 @@ def test_cond():
     inputs = create_input(Cond_smt.input_t)
     outputs = Cond_smt()(**inputs)
 
-def test_mode():
-    rmode_smt = gen_register_mode(BitVector[16], 0)(SMTFamily())
-    inputs = create_input(rmode_smt.input_t)
-    outputs = rmode_smt()(**inputs)
+# def test_mode():
+#     rmode_smt = gen_register_mode(BitVector[16], 0)(SMTFamily())
+#     inputs = create_input(rmode_smt.input_t)
+#     outputs = rmode_smt()(**inputs)
 
 def test_alu():
     ALU_smt = ALU_fc(SMTFamily())

@@ -1,7 +1,8 @@
 from lassen.alu import ALU_fc
-from peak import Peak, family_closure
+from peak import Peak, family_closure, family
 from peak.mapper import ArchMapper
 from peak.mapper.utils import pretty_print_binding
+from lassen import PE_fc, Inst_fc
 
 @family_closure
 def Add_fc(family):
@@ -9,7 +10,7 @@ def Add_fc(family):
     @family.assemble(locals(), globals())
     class Add(Peak):
         def __call__(self, a: Data, b:Data) -> Data:
-            return a + b
+            return a - b
     return Add
 
 def test_mul():
@@ -19,4 +20,10 @@ def test_mul():
     ir_mapper = arch_mapper.process_ir_instruction(ir_fc)
     assert ir_mapper.formula is not None
     rr = ir_mapper.solve('z3')
+    
+    Inst = Inst_fc(family.PyFamily())
+
+    for k, v in Inst.field_dict.items(): print(k,v)
+    for i in rr.ibinding: print(i)
+
     assert rr is not None

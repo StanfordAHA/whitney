@@ -17,7 +17,7 @@ class HashableDict(dict):
         return hash(tuple(sorted(self.keys())))
 
 Inst = Inst_fc(PyFamily())
-Mode_t = Inst.rega
+# Mode_t = Inst.rega
 
 PE_bv = PE_fc(PyFamily())
 
@@ -64,8 +64,7 @@ def copy_file(src_filename, dst_filename, override=False):
 
 
 def rtl_tester(test_op, data0=None, data1=None, bit0=None, bit1=None, bit2=None,
-               res=None, res_p=None, clk_en=1, delay=0,
-               data0_delay_values=None, data1_delay_values=None):
+               res=None, res_p=None, clk_en=1):
     tester.clear()
     # Advance timestep past 0 for fp functional model (see rnd logic)
     tester.circuit.ASYNCRESET = 0
@@ -93,15 +92,8 @@ def rtl_tester(test_op, data0=None, data1=None, bit0=None, bit1=None, bit2=None,
     if bit2 is not None:
         tester.circuit.bit2 = Bit(bit2)
     #make sure config_en is off
-    tester.circuit.config_en = Bit(0)
+    # tester.circuit.config_en = Bit(0)
     tester.eval()
-
-    for i in range(delay):
-        tester.step(2)
-        if data0_delay_values is not None:
-            tester.circuit.data0 = data0_delay_values[i]
-        if data1_delay_values is not None:
-            tester.circuit.data1 = data1_delay_values[i]
 
     if res is not None:
         tester.circuit.O0.expect(res)
