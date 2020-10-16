@@ -1,0 +1,2706 @@
+{
+  "coreir.or_": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 18
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 19
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.mul": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 11
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 19
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.and_": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 19
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 19
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "commonlib.smax": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 4
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 19
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          0
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "commonlib.smin": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 5
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 19
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          0
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "commonlib.umax": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 4
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 19
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          0
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "commonlib.umin": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 5
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 19
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          0
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.add": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.ule": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 5
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 255
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 15
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.sle": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 5
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 255
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 15
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.ult": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 1
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 255
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 8
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.slt": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 1
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 255
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 11
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.ugt": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 1
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 255
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 3
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.sgt": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 1
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 255
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 12
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "corebit.not_": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 12
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 85
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 14
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "data0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "data1"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "corebit.mux": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 29
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 216
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 14
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "data0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "data1"
+        ]
+      ],
+      [
+        [
+          "sel"
+        ],
+        [
+          "bit0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "bit1"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "corebit.or_": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 4
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 252
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 14
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "data0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "bit1"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "corebit.and_": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 1
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 160
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 14
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "data0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "data1"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "corebit.xor": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 2
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 90
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 14
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "data0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "data1"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.sub": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 1
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "commonlib.abs": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 3
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          0
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.eq": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 20
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 255
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.lshr": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 15
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 19
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.ashr": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 15
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 8
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.shl": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 17
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.mux": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 8
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 19
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        [
+          "sel"
+        ],
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  }
+}
