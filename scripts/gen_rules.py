@@ -17,7 +17,8 @@ cutil.load_libs(["commonlib"])
 CoreIRNodes = gen_CoreIRNodes(16)
 
 lassen_ops = (
-
+    "coreir.const",
+    "corebit.const",
     "corebit.and_",
     "coreir.ule",
     "coreir.sle",
