@@ -20,5 +20,14 @@ def Inst_fc(family):
         signed= Signed_t     # unsigned or signed
         lut= LUT_t          # LUT operation as a 3-bit LUT
         cond= Cond_t        # Condition code (see cond.py)
-
+        rega= Mode_t        # RegA mode (see mode.py)
+        data0= Data         # RegA constant (16-bits)
+        regb= Mode_t        # RegB mode
+        data1= Data         # RegB constant (16-bits)
+        regd= Mode_t        # RegD mode
+        bit0= Bit           # RegD constant (1-bit)
+        rege= Mode_t        # RegE mode
+        bit1= Bit           # RegE constant (1-bit)
+        regf= Mode_t        # RegF mode
+        bit2= Bit           # RegF constant (1-bit)
     return Inst

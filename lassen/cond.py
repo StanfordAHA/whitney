@@ -27,12 +27,7 @@ class Cond_t(Enum):
     SLE = 13
     LUT = 14
     ALU = 15
-    FP_EQ = 0
-    FP_NE = 1
-    FP_GE = 16
-    FP_GT = 17
-    FP_LE = 18
-    FP_LT = 19
+
 #
 # Implement condition code logic
 #
@@ -77,15 +72,8 @@ def Cond_fc(family):
                 return Z | (N != V)
             elif code == Cond_t.ALU:
                 return alu
-            elif code == Cond_t.LUT:
+            else: # code == Cond_t.LUT:
                 return lut
-            elif code == Cond_t.FP_GE:
-                return ~N | Z
-            elif code == Cond_t.FP_GT:
-                return ~N & ~Z
-            elif code == Cond_t.FP_LE:
-                return N | Z
-            else: #code == Cond_t.FP_LT:
-                return N & ~Z
+           
 
     return Cond

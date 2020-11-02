@@ -1,842 +1,10 @@
 {
-  "coreir.or_": {
-    "ibinding": [
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 18
-        },
-        [
-          "inst",
-          "alu"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 1,
-          "value": 0
-        },
-        [
-          "inst",
-          "signed"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 0
-        },
-        [
-          "inst",
-          "lut"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 5,
-          "value": 19
-        },
-        [
-          "inst",
-          "cond"
-        ]
-      ],
-      [
-        [
-          "in0"
-        ],
-        [
-          "data0"
-        ]
-      ],
-      [
-        [
-          "in1"
-        ],
-        [
-          "data1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit0"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit2"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "clk_en"
-        ]
-      ]
-    ],
-    "obinding": [
-      [
-        [
-          "out"
-        ],
-        [
-          "alu_res"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "res_p"
-        ]
-      ]
-    ]
-  },
-  "coreir.mul": {
-    "ibinding": [
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 11
-        },
-        [
-          "inst",
-          "alu"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 1,
-          "value": 1
-        },
-        [
-          "inst",
-          "signed"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 0
-        },
-        [
-          "inst",
-          "lut"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 5,
-          "value": 19
-        },
-        [
-          "inst",
-          "cond"
-        ]
-      ],
-      [
-        [
-          "in0"
-        ],
-        [
-          "data0"
-        ]
-      ],
-      [
-        [
-          "in1"
-        ],
-        [
-          "data1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit0"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit2"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "clk_en"
-        ]
-      ]
-    ],
-    "obinding": [
-      [
-        [
-          "out"
-        ],
-        [
-          "alu_res"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "res_p"
-        ]
-      ]
-    ]
-  },
-  "coreir.and_": {
-    "ibinding": [
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 19
-        },
-        [
-          "inst",
-          "alu"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 1,
-          "value": 1
-        },
-        [
-          "inst",
-          "signed"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 0
-        },
-        [
-          "inst",
-          "lut"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 5,
-          "value": 19
-        },
-        [
-          "inst",
-          "cond"
-        ]
-      ],
-      [
-        [
-          "in1"
-        ],
-        [
-          "data0"
-        ]
-      ],
-      [
-        [
-          "in0"
-        ],
-        [
-          "data1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit0"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit2"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "clk_en"
-        ]
-      ]
-    ],
-    "obinding": [
-      [
-        [
-          "out"
-        ],
-        [
-          "alu_res"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "res_p"
-        ]
-      ]
-    ]
-  },
-  "commonlib.smax": {
-    "ibinding": [
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 4
-        },
-        [
-          "inst",
-          "alu"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 1,
-          "value": 1
-        },
-        [
-          "inst",
-          "signed"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 0
-        },
-        [
-          "inst",
-          "lut"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 5,
-          "value": 19
-        },
-        [
-          "inst",
-          "cond"
-        ]
-      ],
-      [
-        [
-          "in0"
-        ],
-        [
-          "data0"
-        ]
-      ],
-      [
-        [
-          "in1"
-        ],
-        [
-          "data1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit0"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit2"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "clk_en"
-        ]
-      ]
-    ],
-    "obinding": [
-      [
-        [
-          0
-        ],
-        [
-          "alu_res"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "res_p"
-        ]
-      ]
-    ]
-  },
-  "commonlib.smin": {
-    "ibinding": [
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 5
-        },
-        [
-          "inst",
-          "alu"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 1,
-          "value": 1
-        },
-        [
-          "inst",
-          "signed"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 0
-        },
-        [
-          "inst",
-          "lut"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 5,
-          "value": 19
-        },
-        [
-          "inst",
-          "cond"
-        ]
-      ],
-      [
-        [
-          "in0"
-        ],
-        [
-          "data0"
-        ]
-      ],
-      [
-        [
-          "in1"
-        ],
-        [
-          "data1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit0"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit2"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "clk_en"
-        ]
-      ]
-    ],
-    "obinding": [
-      [
-        [
-          0
-        ],
-        [
-          "alu_res"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "res_p"
-        ]
-      ]
-    ]
-  },
-  "commonlib.umax": {
-    "ibinding": [
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 4
-        },
-        [
-          "inst",
-          "alu"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 1,
-          "value": 0
-        },
-        [
-          "inst",
-          "signed"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 0
-        },
-        [
-          "inst",
-          "lut"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 5,
-          "value": 19
-        },
-        [
-          "inst",
-          "cond"
-        ]
-      ],
-      [
-        [
-          "in1"
-        ],
-        [
-          "data0"
-        ]
-      ],
-      [
-        [
-          "in0"
-        ],
-        [
-          "data1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit0"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit2"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "clk_en"
-        ]
-      ]
-    ],
-    "obinding": [
-      [
-        [
-          0
-        ],
-        [
-          "alu_res"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "res_p"
-        ]
-      ]
-    ]
-  },
-  "commonlib.umin": {
-    "ibinding": [
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 5
-        },
-        [
-          "inst",
-          "alu"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 1,
-          "value": 0
-        },
-        [
-          "inst",
-          "signed"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 0
-        },
-        [
-          "inst",
-          "lut"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 5,
-          "value": 19
-        },
-        [
-          "inst",
-          "cond"
-        ]
-      ],
-      [
-        [
-          "in0"
-        ],
-        [
-          "data0"
-        ]
-      ],
-      [
-        [
-          "in1"
-        ],
-        [
-          "data1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit0"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit2"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "clk_en"
-        ]
-      ]
-    ],
-    "obinding": [
-      [
-        [
-          0
-        ],
-        [
-          "alu_res"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "res_p"
-        ]
-      ]
-    ]
-  },
-  "coreir.add": {
-    "ibinding": [
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 0
-        },
-        [
-          "inst",
-          "alu"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 1,
-          "value": 0
-        },
-        [
-          "inst",
-          "signed"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 8,
-          "value": 0
-        },
-        [
-          "inst",
-          "lut"
-        ]
-      ],
-      [
-        {
-          "type": "BitVector",
-          "width": 5,
-          "value": 0
-        },
-        [
-          "inst",
-          "cond"
-        ]
-      ],
-      [
-        [
-          "in0"
-        ],
-        [
-          "data0"
-        ]
-      ],
-      [
-        [
-          "in1"
-        ],
-        [
-          "data1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit0"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit1"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "bit2"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "clk_en"
-        ]
-      ]
-    ],
-    "obinding": [
-      [
-        [
-          "out"
-        ],
-        [
-          "alu_res"
-        ]
-      ],
-      [
-        "unbound",
-        [
-          "res_p"
-        ]
-      ]
-    ]
-  },
   "coreir.ule": {
     "ibinding": [
       [
         {
           "type": "BitVector",
-          "width": 8,
+          "width": 5,
           "value": 5
         },
         [
@@ -859,7 +27,7 @@
         {
           "type": "BitVector",
           "width": 8,
-          "value": 255
+          "value": 8
         },
         [
           "inst",
@@ -869,12 +37,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
+          "width": 4,
           "value": 15
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 0
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 49152
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -940,7 +218,7 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
+          "width": 5,
           "value": 5
         },
         [
@@ -963,7 +241,7 @@
         {
           "type": "BitVector",
           "width": 8,
-          "value": 255
+          "value": 128
         },
         [
           "inst",
@@ -973,12 +251,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
+          "width": 4,
           "value": 15
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 1
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 32763
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -1044,8 +432,8 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
-          "value": 1
+          "width": 5,
+          "value": 6
         },
         [
           "inst",
@@ -1056,7 +444,7 @@
         {
           "type": "BitVector",
           "width": 1,
-          "value": 0
+          "value": 1
         },
         [
           "inst",
@@ -1067,7 +455,7 @@
         {
           "type": "BitVector",
           "width": 8,
-          "value": 255
+          "value": 64
         },
         [
           "inst",
@@ -1077,12 +465,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
-          "value": 8
+          "width": 4,
+          "value": 15
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 47039
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 16960
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -1148,8 +646,8 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
-          "value": 1
+          "width": 5,
+          "value": 6
         },
         [
           "inst",
@@ -1160,7 +658,7 @@
         {
           "type": "BitVector",
           "width": 1,
-          "value": 1
+          "value": 0
         },
         [
           "inst",
@@ -1171,7 +669,7 @@
         {
           "type": "BitVector",
           "width": 8,
-          "value": 255
+          "value": 127
         },
         [
           "inst",
@@ -1181,8 +679,8 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
-          "value": 11
+          "width": 4,
+          "value": 10
         },
         [
           "inst",
@@ -1190,8 +688,118 @@
         ]
       ],
       [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
         [
-          "in0"
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 3
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 3
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 40959
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 1
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in1"
         ],
         [
           "data0"
@@ -1199,7 +807,7 @@
       ],
       [
         [
-          "in1"
+          "in0"
         ],
         [
           "data1"
@@ -1252,8 +860,8 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
-          "value": 1
+          "width": 5,
+          "value": 6
         },
         [
           "inst",
@@ -1264,7 +872,7 @@
         {
           "type": "BitVector",
           "width": 1,
-          "value": 0
+          "value": 1
         },
         [
           "inst",
@@ -1275,7 +883,7 @@
         {
           "type": "BitVector",
           "width": 8,
-          "value": 255
+          "value": 64
         },
         [
           "inst",
@@ -1285,8 +893,8 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
-          "value": 3
+          "width": 4,
+          "value": 15
         },
         [
           "inst",
@@ -1294,8 +902,118 @@
         ]
       ],
       [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
         [
-          "in1"
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65529
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 9
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in0"
         ],
         [
           "data0"
@@ -1303,7 +1021,7 @@
       ],
       [
         [
-          "in0"
+          "in1"
         ],
         [
           "data1"
@@ -1356,8 +1074,8 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
-          "value": 1
+          "width": 5,
+          "value": 6
         },
         [
           "inst",
@@ -1379,7 +1097,7 @@
         {
           "type": "BitVector",
           "width": 8,
-          "value": 255
+          "value": 252
         },
         [
           "inst",
@@ -1389,12 +1107,336 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
-          "value": 12
+          "width": 4,
+          "value": 11
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 8192
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.uge": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 6
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 4,
+          "value": 15
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 52993
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -1455,13 +1497,1297 @@
       ]
     ]
   },
-  "corebit.not_": {
+  "coreir.sge": {
     "ibinding": [
       [
         {
           "type": "BitVector",
+          "width": 5,
+          "value": 4
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
           "width": 8,
-          "value": 12
+          "value": 129
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 4,
+          "value": 15
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 63491
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65534
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        "unbound",
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        [
+          "out"
+        ],
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.or_": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 18
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 4,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 3
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.mul": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 11
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 4,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 3
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.and_": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 19
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 4,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 40064
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 6367
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "commonlib.smax": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 4
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 4,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          0
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "commonlib.smin": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 5
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 4,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 3
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          0
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "commonlib.umax": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 4
         },
         [
           "inst",
@@ -1483,7 +2809,7 @@
         {
           "type": "BitVector",
           "width": 8,
-          "value": 85
+          "value": 0
         },
         [
           "inst",
@@ -1493,12 +2819,764 @@
       [
         {
           "type": "BitVector",
+          "width": 4,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 16416
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 1
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          0
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "commonlib.umin": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
           "width": 5,
+          "value": 5
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 0
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 4,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          0
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "coreir.add": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 0
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 0
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 4,
+          "value": 0
+        },
+        [
+          "inst",
+          "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65534
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 32794
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
+        ]
+      ],
+      [
+        [
+          "in1"
+        ],
+        [
+          "data0"
+        ]
+      ],
+      [
+        [
+          "in0"
+        ],
+        [
+          "data1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit0"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit1"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "bit2"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "clk_en"
+        ]
+      ]
+    ],
+    "obinding": [
+      [
+        [
+          "out"
+        ],
+        [
+          "alu_res"
+        ]
+      ],
+      [
+        "unbound",
+        [
+          "res_p"
+        ]
+      ]
+    ]
+  },
+  "corebit.not_": {
+    "ibinding": [
+      [
+        {
+          "type": "BitVector",
+          "width": 5,
+          "value": 0
+        },
+        [
+          "inst",
+          "alu"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 1,
+          "value": 1
+        },
+        [
+          "inst",
+          "signed"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 8,
+          "value": 80
+        },
+        [
+          "inst",
+          "lut"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 4,
           "value": 14
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65524
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 11
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -1515,7 +3593,7 @@
       ],
       [
         [
-          "in0"
+          "in___"
         ],
         [
           "bit0"
@@ -1562,8 +3640,8 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
-          "value": 29
+          "width": 5,
+          "value": 13
         },
         [
           "inst",
@@ -1574,7 +3652,7 @@
         {
           "type": "BitVector",
           "width": 1,
-          "value": 0
+          "value": 1
         },
         [
           "inst",
@@ -1585,7 +3663,7 @@
         {
           "type": "BitVector",
           "width": 8,
-          "value": 216
+          "value": 202
         },
         [
           "inst",
@@ -1595,12 +3673,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
+          "width": 4,
           "value": 14
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 46604
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 49809
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -1617,7 +3805,7 @@
       ],
       [
         [
-          "sel"
+          "in0"
         ],
         [
           "bit0"
@@ -1633,7 +3821,7 @@
       ],
       [
         [
-          "in0"
+          "sel"
         ],
         [
           "bit2"
@@ -1668,8 +3856,8 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
-          "value": 4
+          "width": 5,
+          "value": 1
         },
         [
           "inst",
@@ -1680,7 +3868,7 @@
         {
           "type": "BitVector",
           "width": 1,
-          "value": 1
+          "value": 0
         },
         [
           "inst",
@@ -1691,7 +3879,7 @@
         {
           "type": "BitVector",
           "width": 8,
-          "value": 252
+          "value": 184
         },
         [
           "inst",
@@ -1701,12 +3889,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
+          "width": 4,
           "value": 14
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65522
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65521
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -1772,8 +4070,8 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
-          "value": 1
+          "width": 5,
+          "value": 2
         },
         [
           "inst",
@@ -1805,12 +4103,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
+          "width": 4,
           "value": 14
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 32754
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 14
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -1827,7 +4235,7 @@
       ],
       [
         [
-          "in1"
+          "in0"
         ],
         [
           "bit0"
@@ -1841,7 +4249,7 @@
       ],
       [
         [
-          "in0"
+          "in1"
         ],
         [
           "bit2"
@@ -1876,7 +4284,7 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
+          "width": 5,
           "value": 2
         },
         [
@@ -1899,7 +4307,7 @@
         {
           "type": "BitVector",
           "width": 8,
-          "value": 90
+          "value": 198
         },
         [
           "inst",
@@ -1909,12 +4317,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
+          "width": 4,
           "value": 14
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 3
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 16384
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 49153
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -1931,22 +4449,22 @@
       ],
       [
         [
-          "in1"
+          "in0"
         ],
         [
           "bit0"
         ]
       ],
       [
-        "unbound",
+        [
+          "in1"
+        ],
         [
           "bit1"
         ]
       ],
       [
-        [
-          "in0"
-        ],
+        "unbound",
         [
           "bit2"
         ]
@@ -1980,7 +4498,7 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
+          "width": 5,
           "value": 1
         },
         [
@@ -1992,7 +4510,7 @@
         {
           "type": "BitVector",
           "width": 1,
-          "value": 0
+          "value": 1
         },
         [
           "inst",
@@ -2013,12 +4531,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
+          "width": 4,
           "value": 0
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 3
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65412
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -2084,7 +4712,7 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
+          "width": 5,
           "value": 3
         },
         [
@@ -2117,12 +4745,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
+          "width": 4,
           "value": 0
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 1
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 0
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -2186,8 +4924,8 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
-          "value": 20
+          "width": 5,
+          "value": 6
         },
         [
           "inst",
@@ -2209,7 +4947,7 @@
         {
           "type": "BitVector",
           "width": 8,
-          "value": 255
+          "value": 129
         },
         [
           "inst",
@@ -2219,12 +4957,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
+          "width": 4,
           "value": 0
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 51208
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 32769
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -2290,7 +5138,7 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
+          "width": 5,
           "value": 15
         },
         [
@@ -2323,12 +5171,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
-          "value": 19
+          "width": 4,
+          "value": 0
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 61167
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 33284
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -2394,7 +5352,7 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
+          "width": 5,
           "value": 15
         },
         [
@@ -2427,12 +5385,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
-          "value": 8
+          "width": 4,
+          "value": 0
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 64904
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -2498,8 +5566,8 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
-          "value": 17
+          "width": 5,
+          "value": 31
         },
         [
           "inst",
@@ -2531,12 +5599,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
+          "width": 4,
           "value": 0
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 3
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 65535
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": true
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
@@ -2602,7 +5780,7 @@
       [
         {
           "type": "BitVector",
-          "width": 8,
+          "width": 5,
           "value": 8
         },
         [
@@ -2614,7 +5792,7 @@
         {
           "type": "BitVector",
           "width": 1,
-          "value": 1
+          "value": 0
         },
         [
           "inst",
@@ -2635,12 +5813,122 @@
       [
         {
           "type": "BitVector",
-          "width": 5,
-          "value": 19
+          "width": 4,
+          "value": 0
         },
         [
           "inst",
           "cond"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "rega"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regb"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 2
+        },
+        [
+          "inst",
+          "regd"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "rege"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 2,
+          "value": 0
+        },
+        [
+          "inst",
+          "regf"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 57837
+        },
+        [
+          "inst",
+          "data0"
+        ]
+      ],
+      [
+        {
+          "type": "BitVector",
+          "width": 16,
+          "value": 8
+        },
+        [
+          "inst",
+          "data1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit0"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit1"
+        ]
+      ],
+      [
+        {
+          "type": "Bit",
+          "width": 1,
+          "value": false
+        },
+        [
+          "inst",
+          "bit2"
         ]
       ],
       [
