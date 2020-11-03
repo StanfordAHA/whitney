@@ -3183,7 +3183,7 @@
     "obinding": [
       [
         [
-          0
+          "out"
         ],
         [
           "alu_res"
@@ -3397,7 +3397,7 @@
     "obinding": [
       [
         [
-          0
+          "out"
         ],
         [
           "alu_res"
@@ -3611,7 +3611,7 @@
     "obinding": [
       [
         [
-          0
+          "out"
         ],
         [
           "alu_res"
@@ -3825,7 +3825,7 @@
     "obinding": [
       [
         [
-          0
+          "out"
         ],
         [
           "alu_res"
@@ -5321,7 +5321,7 @@
     "obinding": [
       [
         [
-          0
+          "out"
         ],
         [
           "alu_res"
